@@ -6,11 +6,16 @@
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul y Ultra Instinto",
   "hosts": [],
-  "categories": ["themes"],
+  "categories": [
+    "themes"
+  ],
   "appThemes": [
     {
       "id": "goku-dbs",
-      "name": { "es": "Goku DBS", "en": "Goku DBS" },
+      "name": {
+        "es": "Goku DBS",
+        "en": "Goku DBS"
+      },
       "experience": "full",
       "colors": {
         "accent": "#FF7A00",
@@ -24,29 +29,76 @@
         "focus": "#FFB347",
         "onFocus": "#000000"
       },
-      "background": { "type": "gradient", "colors": ["#050A1C", "#0A1A3F"], "angle": 180 },
-      "shape": { "cardRadius": 14, "channelRadius": 14, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 20, "inputRadius": 12 },
-      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
-      "motion": { "focusZoom": 1.08 },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#050A1C",
+          "#0A1A3F"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
-        "colors.accent": { "swatches": ["#FF7A00", "#29B6FF", "#FFC400", "#C0C8D8"] },
-        "shape.cardRadius": { "min": 0, "max": 24 },
-        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "colors.accent": {
+          "swatches": [
+            "#FF7A00",
+            "#29B6FF",
+            "#FFC400",
+            "#C0C8D8"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
         "background": true
       }
     },
     {
       "id": "super-saiyajin",
-      "name": { "es": "Super Saiyajin", "en": "Super Saiyan" },
+      "name": {
+        "es": "Super Saiyajin",
+        "en": "Super Saiyan"
+      },
       "experience": "full",
       "colors": {
         "accent": "#FFC400",
@@ -60,29 +112,75 @@
         "focus": "#FFE066",
         "onFocus": "#000000"
       },
-      "background": { "type": "gradient", "colors": ["#0B0A06", "#1F1600"], "angle": 180 },
-      "shape": { "cardRadius": 12, "channelRadius": 12, "buttonRadius": 22, "chipRadius": 18, "dialogRadius": 18, "inputRadius": 10 },
-      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
-      "motion": { "focusZoom": 1.1 },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B0A06",
+          "#1F1600"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 12,
+        "channelRadius": 12,
+        "buttonRadius": 22,
+        "chipRadius": 18,
+        "dialogRadius": 18,
+        "inputRadius": 10
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.15,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
-        "colors.accent": { "swatches": ["#FFC400", "#FF7A00", "#FFE066"] },
-        "shape.cardRadius": { "min": 0, "max": 24 },
-        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "colors.accent": {
+          "swatches": [
+            "#FFC400",
+            "#FF7A00",
+            "#FFE066"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
         "background": true
       }
     },
     {
       "id": "dios-azul",
-      "name": { "es": "Super Saiyajin Dios Azul", "en": "Super Saiyan Blue" },
+      "name": {
+        "es": "Super Saiyajin Dios Azul",
+        "en": "Super Saiyan Blue"
+      },
       "experience": "full",
       "colors": {
         "accent": "#29B6FF",
@@ -96,29 +194,75 @@
         "focus": "#7FD6FF",
         "onFocus": "#00111F"
       },
-      "background": { "type": "gradient", "colors": ["#040B1A", "#07163A"], "angle": 180 },
-      "shape": { "cardRadius": 16, "channelRadius": 16, "buttonRadius": 26, "chipRadius": 20, "dialogRadius": 22, "inputRadius": 14 },
-      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
-      "motion": { "focusZoom": 1.08 },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#040B1A",
+          "#07163A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 20,
+        "dialogRadius": 22,
+        "inputRadius": 14
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
-        "colors.accent": { "swatches": ["#29B6FF", "#7C4DFF", "#00E5FF"] },
-        "shape.cardRadius": { "min": 0, "max": 24 },
-        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "colors.accent": {
+          "swatches": [
+            "#29B6FF",
+            "#7C4DFF",
+            "#00E5FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
         "background": true
       }
     },
     {
       "id": "ultra-instinto",
-      "name": { "es": "Ultra Instinto", "en": "Ultra Instinct" },
+      "name": {
+        "es": "Ultra Instinto",
+        "en": "Ultra Instinct"
+      },
       "experience": "full",
       "colors": {
         "accent": "#C0C8D8",
@@ -132,23 +276,66 @@
         "focus": "#FFFFFF",
         "onFocus": "#000000"
       },
-      "background": { "type": "gradient", "colors": ["#08090F", "#14102A"], "angle": 180 },
-      "shape": { "cardRadius": 14, "channelRadius": 14, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 20, "inputRadius": 12 },
-      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
-      "motion": { "focusZoom": 1.08 },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#08090F",
+          "#14102A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.1,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
-        "colors.accent": { "swatches": ["#C0C8D8", "#7C4DFF", "#29B6FF"] },
-        "shape.cardRadius": { "min": 0, "max": 24 },
-        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "colors.accent": {
+          "swatches": [
+            "#C0C8D8",
+            "#7C4DFF",
+            "#29B6FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
         "background": true
       }
     }
