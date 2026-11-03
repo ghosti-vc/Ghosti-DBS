@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Beerus, Shenlong y Goku Black",
@@ -47,7 +47,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -131,7 +131,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -214,7 +214,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -297,7 +297,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -380,7 +380,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -463,7 +463,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -546,7 +546,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
@@ -627,7 +627,7 @@
       },
       "typography": {
         "scale": 1.05,
-        "titleScale": 1.3,
+        "titleScale": 1.15,
         "bodyScale": 1.0
       },
       "motion": {
