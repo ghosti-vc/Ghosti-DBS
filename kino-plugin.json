@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul y Ultra Instinto",
