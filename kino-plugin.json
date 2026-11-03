@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.11",
+  "version": "1.0.10",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Beerus, Shenlong y Goku Black",
@@ -94,7 +94,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -181,7 +181,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -268,7 +268,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -355,7 +355,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -442,7 +442,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -529,7 +529,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -616,7 +616,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     },
@@ -702,7 +702,7 @@
       },
       "pluginColors": "override",
       "price": {
-        "kinos": 5,
+        "kinos": 10,
         "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
       }
     }
