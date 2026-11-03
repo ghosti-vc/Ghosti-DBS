@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Beerus, Shenlong y Goku Black",
@@ -92,7 +92,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "super-saiyajin",
@@ -175,7 +179,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "dios-azul",
@@ -258,7 +266,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "ultra-instinto",
@@ -341,7 +353,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "vegeta-ultra-ego",
@@ -424,7 +440,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "beerus-violeta",
@@ -507,7 +527,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "shenlong",
@@ -590,7 +614,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     },
     {
       "id": "goku-black",
@@ -672,7 +700,11 @@
         },
         "background": true
       },
-      "pluginColors": "override"
+      "pluginColors": "override",
+      "price": {
+        "kinos": 5,
+        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
+      }
     }
   ]
 }
