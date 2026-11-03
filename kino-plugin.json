@@ -1,57 +1,156 @@
 {
-  "id": "own-server",
-  "name": "Tu servidor",
-  "version": "1.5.0",
-  "apiVersion": 7,
+  "id": "ghosti-tema-dbs",
+  "name": "Ghosti DBS",
+  "version": "1.0.0",
+  "apiVersion": 18,
   "entry": "plugin.js",
-  "description": "Ve el contenido de tu propio servidor de video, con sus canales y subtítulos, y cuéntale qué ves. Necesita que escribas su dirección.",
-  "author": "kinotvapp",
-  "homepage": "https://github.com/kinotvapp/kino-plugin-own-server",
+  "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul y Ultra Instinto",
   "hosts": [],
-  "capabilities": [
-    "search",
-    "home",
-    "browse",
-    "episodes",
-    "resolve",
-    "download",
-    "channels",
-    "scopedSearch",
-    "migrate",
-    "meta",
-    "subtitles",
-    "tracking",
-    "segments"
-  ],
-  "categories": ["movies", "series", "live", "subtitles", "utilities"],
-  "discoverable": true,
-  "debug": false,
-  "telemetry": true,
-  "section": { "label": "Tu servidor" },
-  "theme": { "accent": "#2BB68F", "onAccent": "#06201A", "background": "#0B1513", "surface": "#15241F", "highlight": "#E8F5F0" },
-  "settings": [
-    { "key": "cuenta", "label": "Tu servidor", "type": "section", "hint": "Escribe la dirección de tu servidor (Jellyfin, Emby, un NAS…) tal como la abres en el navegador de tu casa, con su puerto, y tu usuario y contraseña de ese servidor. Kino solo se conecta a esa dirección y a las otras que pongas abajo." },
-    { "key": "server", "label": "Servidor", "type": "url", "required": true, "hint": "http://192.168.1.10:8096" },
-    { "key": "user", "label": "Usuario", "type": "text", "required": true },
-    { "key": "password", "label": "Contraseña", "type": "password", "required": true },
-    { "key": "estado", "label": "Conexión", "type": "status" },
-    { "key": "probar", "label": "Probar conexión", "type": "action" },
-    { "key": "salir", "label": "Cerrar sesión", "type": "action", "confirm": "¿Cerrar la sesión en tu servidor? Kino vuelve a entrar con tu usuario la próxima vez." },
-    { "key": "reproduccion", "label": "Reproducción", "type": "section", "hint": "Cómo pedir los videos y cada cuánto revisar lo nuevo de tu servidor." },
-    { "key": "hd", "label": "Solo HD", "type": "toggle" },
-    { "key": "homeTtl", "label": "Revisar lo nuevo", "type": "select", "default": "15",
-      "options": [{ "value": "5", "label": "Cada 5 minutos" }, { "value": "15", "label": "Cada 15 minutos" }, { "value": "60", "label": "Cada hora" }] },
-    { "key": "addresses", "label": "Otras direcciones del mismo servidor", "type": "list", "max": 5,
-      "fields": [
-        { "key": "url", "label": "Dirección", "type": "url", "required": true, "hint": "https://mi-servidor.example.org" },
-        { "key": "label", "label": "Nombre", "type": "text", "hint": "Desde fuera de casa" }
-      ] },
-    { "key": "canales", "label": "Canales en vivo", "type": "section", "hint": "Algunos canales solo responden a un reproductor conocido: escribe aquí el User-Agent que piden." },
-    { "key": "userAgent", "label": "User-Agent de los canales", "type": "text", "hint": "VLC/3.0.20 LibVLC/3.0.20" },
-    { "key": "quitarAgente", "label": "Usar el User-Agent de Kino", "type": "action" },
-    { "key": "avisos", "label": "Lo que ves", "type": "section", "hint": "Kino le cuenta a tu servidor qué ves en este aparato y cuándo lo terminas, para que marque lo visto como lo hace su propia app. Apágalo cuando quieras con el interruptor «Enviar lo que veo» de esta misma pestaña." },
-    { "key": "ultimoAviso", "label": "Último aviso", "type": "status" }
-  ],
-  "color": "#1F8A70",
-  "icon": "icon.png"
+  "categories": ["themes"],
+  "appThemes": [
+    {
+      "id": "goku-dbs",
+      "name": { "es": "Goku DBS", "en": "Goku DBS" },
+      "experience": "full",
+      "colors": {
+        "accent": "#FF7A00",
+        "onAccent": "#000000",
+        "background": "#050A1C",
+        "surface": "#0C1736",
+        "surfaceHigh": "#142450",
+        "railPanel": "#08112B",
+        "textPrimary": "#FFF4E6",
+        "textSecondary": "#B7C3E0",
+        "focus": "#FFB347",
+        "onFocus": "#000000"
+      },
+      "background": { "type": "gradient", "colors": ["#050A1C", "#0A1A3F"], "angle": 180 },
+      "shape": { "cardRadius": 14, "channelRadius": 14, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 20, "inputRadius": 12 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "motion": { "focusZoom": 1.08 },
+      "logo": {
+        "mark": {
+          "size": [30, 30],
+          "paths": [
+            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
+            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#FF7A00", "#29B6FF", "#FFC400", "#C0C8D8"] },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "background": true
+      }
+    },
+    {
+      "id": "super-saiyajin",
+      "name": { "es": "Super Saiyajin", "en": "Super Saiyan" },
+      "experience": "full",
+      "colors": {
+        "accent": "#FFC400",
+        "onAccent": "#000000",
+        "background": "#0B0A06",
+        "surface": "#17140A",
+        "surfaceHigh": "#231E0E",
+        "railPanel": "#120F07",
+        "textPrimary": "#FFF8E1",
+        "textSecondary": "#CDBF96",
+        "focus": "#FFE066",
+        "onFocus": "#000000"
+      },
+      "background": { "type": "gradient", "colors": ["#0B0A06", "#1F1600"], "angle": 180 },
+      "shape": { "cardRadius": 12, "channelRadius": 12, "buttonRadius": 22, "chipRadius": 18, "dialogRadius": 18, "inputRadius": 10 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "motion": { "focusZoom": 1.1 },
+      "logo": {
+        "mark": {
+          "size": [30, 30],
+          "paths": [
+            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
+            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#FFC400", "#FF7A00", "#FFE066"] },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "background": true
+      }
+    },
+    {
+      "id": "dios-azul",
+      "name": { "es": "Super Saiyajin Dios Azul", "en": "Super Saiyan Blue" },
+      "experience": "full",
+      "colors": {
+        "accent": "#29B6FF",
+        "onAccent": "#00111F",
+        "background": "#040B1A",
+        "surface": "#0B1530",
+        "surfaceHigh": "#14224A",
+        "railPanel": "#08122B",
+        "textPrimary": "#EAF6FF",
+        "textSecondary": "#9DB8D6",
+        "focus": "#7FD6FF",
+        "onFocus": "#00111F"
+      },
+      "background": { "type": "gradient", "colors": ["#040B1A", "#07163A"], "angle": 180 },
+      "shape": { "cardRadius": 16, "channelRadius": 16, "buttonRadius": 26, "chipRadius": 20, "dialogRadius": 22, "inputRadius": 14 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "motion": { "focusZoom": 1.08 },
+      "logo": {
+        "mark": {
+          "size": [30, 30],
+          "paths": [
+            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
+            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#29B6FF", "#7C4DFF", "#00E5FF"] },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "background": true
+      }
+    },
+    {
+      "id": "ultra-instinto",
+      "name": { "es": "Ultra Instinto", "en": "Ultra Instinct" },
+      "experience": "full",
+      "colors": {
+        "accent": "#C0C8D8",
+        "onAccent": "#000000",
+        "background": "#08090F",
+        "surface": "#121420",
+        "surfaceHigh": "#1D2033",
+        "railPanel": "#0D0F1A",
+        "textPrimary": "#F2F4FA",
+        "textSecondary": "#A9B0C6",
+        "focus": "#FFFFFF",
+        "onFocus": "#000000"
+      },
+      "background": { "type": "gradient", "colors": ["#08090F", "#14102A"], "angle": 180 },
+      "shape": { "cardRadius": 14, "channelRadius": 14, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 20, "inputRadius": 12 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "motion": { "focusZoom": 1.08 },
+      "logo": {
+        "mark": {
+          "size": [30, 30],
+          "paths": [
+            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
+            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#C0C8D8", "#7C4DFF", "#29B6FF"] },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 1.0, "max": 1.3 },
+        "background": true
+      }
+    }
+  ]
 }
