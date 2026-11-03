@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Beerus y Shenlong",
@@ -69,6 +69,34 @@
             {
               "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
               "fill": "onAccent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            122,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M38 0 H44 V30 H38 Z M44 0 H52 L58 6 V24 L52 30 H44 V25 H50 L52 23 V7 L50 5 H44 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M66 0 H72 V30 H66 Z M72 0 H80 L86 4 V11 L82 15 H72 V10 H80 V5 H72 Z M72 15 H82 L88 20 V26 L84 30 H72 V25 H82 V20 H72 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M96 0 H120 V6 H102 V12 H120 V30 H96 V24 H114 V18 H96 Z",
+              "fill": "accent"
             }
           ]
         }
