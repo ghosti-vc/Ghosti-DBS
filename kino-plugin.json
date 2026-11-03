@@ -92,11 +92,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "super-saiyajin",
@@ -179,11 +175,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "dios-azul",
@@ -266,11 +258,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "ultra-instinto",
@@ -353,11 +341,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "vegeta-ultra-ego",
@@ -440,11 +424,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "shenlong",
@@ -527,11 +507,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "goku-black",
@@ -613,11 +589,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     },
     {
       "id": "gohan-bestia",
@@ -701,11 +673,7 @@
         },
         "background": true
       },
-      "pluginColors": "override",
-      "price": {
-        "kinos": 5,
-        "payTo": "415fc3a0d01516bd31e3782faf90933128b194d8a7dbbed7b1fdf3ca4b132716"
-      }
+      "pluginColors": "override"
     }
   ]
 }
