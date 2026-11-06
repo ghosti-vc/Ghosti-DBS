@@ -1,10 +1,10 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.0.35",
+  "version": "1.0.40",
   "apiVersion": 18,
   "entry": "plugin.js",
-  "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Shenlong, Goku Black y Gohan Bestia. La esfera del dragón de 4 estrellas aparece dentro de la o del logo de Kino.",
+  "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Shenlong, Goku Black y Gohan Bestia",
   "hosts": [],
   "categories": [
     "themes"
@@ -57,7 +57,10 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
             {
               "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
@@ -65,34 +68,6 @@
             },
             {
               "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
-              "fill": "onAccent"
-            }
-          ]
-        },
-        "decor": {
-          "paths": [
-            {
-              "d": "M0 -90A90 90 0 1 1 0 90A90 90 0 1 1 0 -90Z",
-              "fill": "accent"
-            },
-            {
-              "d": "M-28 -48A38 38 0 0 1 28 -48A38 28 0 0 0 -28 -48Z",
-              "fill": "textPrimary"
-            },
-            {
-              "d": "M0 -42L4.8 -27.5L20 -26.8L8.2 -16.5L12.2 0L0 -9.5L-12.2 0L-8.2 -16.5L-20 -26.8L-4.8 -27.5Z",
-              "fill": "onAccent"
-            },
-            {
-              "d": "M-38 -8L-33.2 6.5L-18 7.2L-29.8 17.5L-25.8 34L-38 24.5L-50.2 34L-46.2 17.5L-58 7.2L-42.8 6.5Z",
-              "fill": "onAccent"
-            },
-            {
-              "d": "M38 -8L42.8 6.5L58 7.2L46.2 17.5L50.2 34L38 24.5L25.8 34L29.8 17.5L18 7.2L33.2 6.5Z",
-              "fill": "onAccent"
-            },
-            {
-              "d": "M0 28L4.8 42.5L20 43.2L8.2 53.5L12.2 70L0 60.5L-12.2 70L-8.2 53.5L-20 43.2L-4.8 42.5Z",
               "fill": "onAccent"
             }
           ]
@@ -151,5 +126,554 @@
         "channelRadius": 12,
         "buttonRadius": 22,
         "chipRadius": 18,
-        "dialogRadius": 1
-... 
+        "dialogRadius": 18,
+        "inputRadius": 10
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.15,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFC400",
+            "#FF7A00",
+            "#FFE066"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "dios-azul",
+      "name": {
+        "es": "Super Saiyajin Dios Azul",
+        "en": "Super Saiyan Blue"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#29B6FF",
+        "onAccent": "#00111F",
+        "background": "#040B1A",
+        "surface": "#0B1530",
+        "surfaceHigh": "#14224A",
+        "railPanel": "#08122B",
+        "textPrimary": "#EAF6FF",
+        "textSecondary": "#9DB8D6",
+        "focus": "#7FD6FF",
+        "onFocus": "#00111F"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#040B1A",
+          "#07163A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 20,
+        "dialogRadius": 22,
+        "inputRadius": 14
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#29B6FF",
+            "#7C4DFF",
+            "#00E5FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "ultra-instinto",
+      "name": {
+        "es": "Ultra Instinto",
+        "en": "Ultra Instinct"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#C0C8D8",
+        "onAccent": "#000000",
+        "background": "#08090F",
+        "surface": "#121420",
+        "surfaceHigh": "#1D2033",
+        "railPanel": "#0D0F1A",
+        "textPrimary": "#F2F4FA",
+        "textSecondary": "#A9B0C6",
+        "focus": "#FFFFFF",
+        "onFocus": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#08090F",
+          "#14102A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.1,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#C0C8D8",
+            "#7C4DFF",
+            "#29B6FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "vegeta-ultra-ego",
+      "name": {
+        "es": "Vegeta Ultra Ego",
+        "en": "Vegeta Ultra Ego"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#B266FF",
+        "onAccent": "#0A0014",
+        "background": "#0A0612",
+        "surface": "#150C24",
+        "surfaceHigh": "#21133A",
+        "railPanel": "#0F081C",
+        "textPrimary": "#F5EBFF",
+        "textSecondary": "#B9A5D6",
+        "focus": "#D9B3FF",
+        "onFocus": "#0A0014"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0612",
+          "#1A0B2E"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#B266FF",
+            "#FF4DCC",
+            "#29B6FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "shenlong",
+      "name": {
+        "es": "Shenlong",
+        "en": "Shenron"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#3DDC84",
+        "onAccent": "#00150A",
+        "background": "#04100A",
+        "surface": "#0A1C12",
+        "surfaceHigh": "#123222",
+        "railPanel": "#07140D",
+        "textPrimary": "#EAFFF2",
+        "textSecondary": "#9CC9AE",
+        "focus": "#A8FFCF",
+        "onFocus": "#00150A"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#04100A",
+          "#062414"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#3DDC84",
+            "#FFC400",
+            "#FF4D4D"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "goku-black",
+      "name": {
+        "es": "Goku Black",
+        "en": "Goku Black"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#FF4D8D",
+        "onAccent": "#000000",
+        "background": "#000000",
+        "surface": "#0A0A0A",
+        "surfaceHigh": "#151515",
+        "railPanel": "#050505",
+        "textPrimary": "#F5F5F5",
+        "textSecondary": "#A8A8A8",
+        "focus": "#FF85B3",
+        "onFocus": "#000000"
+      },
+      "background": {
+        "type": "solid",
+        "colors": [
+          "#000000"
+        ]
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FF4D8D",
+            "#FFFFFF",
+            "#9B59FF",
+            "#FF3B30"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    },
+    {
+      "id": "gohan-bestia",
+      "name": {
+        "es": "Gohan Bestia",
+        "en": "Gohan Beast"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#FFFFFF",
+        "onAccent": "#000000",
+        "background": "#16161A",
+        "surface": "#2A2A30",
+        "surfaceHigh": "#3A3A42",
+        "railPanel": "#202026",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#D0D0D8",
+        "focus": "#FFFFFF",
+        "onFocus": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#16161A",
+          "#3A3A42"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.12,
+        "crossfadeMs": 600,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFFFFF",
+            "#D0D0D8",
+            "#9A9AA5",
+            "#FF3B30"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "override"
+    }
+  ]
+}
