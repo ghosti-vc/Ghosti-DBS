@@ -1,7 +1,7 @@
 {
   "id": "ghosti-tema-dbs",
   "name": "Ghosti DBS",
-  "version": "1.1.0",
+  "version": "1.0.24",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas de Dragon Ball Super: Goku, Super Saiyajin, Dios Azul, Ultra Instinto, Vegeta Ultra Ego, Shenlong, Goku Black y Gohan Bestia",
@@ -57,23 +57,30 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#FF7A00", "#29B6FF", "#FFC400", "#C0C8D8"]
+          "swatches": [
+            "#FF7A00",
+            "#29B6FF",
+            "#FFC400",
+            "#C0C8D8"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -134,23 +141,29 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#FFC400", "#FF7A00", "#FFE066"]
+          "swatches": [
+            "#FFC400",
+            "#FF7A00",
+            "#FFE066"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -211,23 +224,29 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#29B6FF", "#7C4DFF", "#00E5FF"]
+          "swatches": [
+            "#29B6FF",
+            "#7C4DFF",
+            "#00E5FF"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -288,23 +307,29 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#C0C8D8", "#7C4DFF", "#29B6FF"]
+          "swatches": [
+            "#C0C8D8",
+            "#7C4DFF",
+            "#29B6FF"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -365,23 +390,29 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#B266FF", "#FF4DCC", "#29B6FF"]
+          "swatches": [
+            "#B266FF",
+            "#FF4DCC",
+            "#29B6FF"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -442,23 +473,29 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#3DDC84", "#FFC400", "#FF4D4D"]
+          "swatches": [
+            "#3DDC84",
+            "#FFC400",
+            "#FF4D4D"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -517,23 +554,30 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#FF4D8D", "#FFFFFF", "#9B59FF", "#FF3B30"]
+          "swatches": [
+            "#FF4D8D",
+            "#FFFFFF",
+            "#9B59FF",
+            "#FF3B30"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
@@ -594,23 +638,30 @@
       },
       "logo": {
         "mark": {
-          "size": [30, 30],
+          "size": [
+            30,
+            30
+          ],
           "paths": [
-            { "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z", "fill": "accent" },
-            { "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z", "fill": "onAccent" }
-          ]
-        },
-        "decor": {
-          "paths": [
-            { "d": "M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "accent" },
-            { "d": "M0 -78 A78 78 0 1 0 0 78 A78 78 0 1 0 0 -78 Z M0 -88 A88 88 0 1 1 0 88 A88 88 0 1 1 0 -88 Z", "fill": "onAccent" },
-            { "d": "M0 -34 L9 -12 L32 -11 L14 4 L20 27 L0 14 L-20 27 L-14 4 L-32 -11 L-9 -12 Z", "fill": "onAccent" }
+            {
+              "d": "M15 1A14 14 0 1 0 15 29A14 14 0 1 0 15 1Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 8L16.8 13L22 13.1L17.9 16.3L19.4 21.5L15 18.4L10.6 21.5L12.1 16.3L8 13.1L13.2 13Z",
+              "fill": "onAccent"
+            }
           ]
         }
       },
       "adjustable": {
         "colors.accent": {
-          "swatches": ["#FFFFFF", "#D0D0D8", "#9A9AA5", "#FF3B30"]
+          "swatches": [
+            "#FFFFFF",
+            "#D0D0D8",
+            "#9A9AA5",
+            "#FF3B30"
+          ]
         },
         "shape.cardRadius": {
           "min": 0,
